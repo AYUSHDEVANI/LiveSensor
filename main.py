@@ -5,7 +5,7 @@ import sys
 def test_exception():
     try:
         logging.info("Devani Ayush")
-        a=1/0
+        # a=1/0
     except Exception as e:
         raise SensorException(e,sys)
 
